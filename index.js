@@ -10,7 +10,7 @@ client.once("ready", () => {
 client.on("message", message => {
   switch (message.content) {
     case prefix + "help":
-      message.channel.send("```Comandos: \n\n$help\n$investigacao\n$stonks```");
+      message.channel.send("```Comandos: \n\n$help\n$investigacao\n$stonks\n$pepe```");
       break;
 
     case prefix + "investigacao":
@@ -21,6 +21,10 @@ client.on("message", message => {
 
     case prefix + "stonks":
       message.channel.send(new Discord.Attachment("images/stonks.jpg"));
+      break;
+
+    case prefix + "pepe":
+      message.channel.send(new Discord.Attachment("images/pepe.png"));
       break;
   }
 });
