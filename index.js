@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('./config.json');
 
 const client = new Discord.Client();
 
@@ -7,9 +8,9 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-	if (message.content === '!ping') {
+	if (message.content === config.prefix + 'ping') {
         message.channel.send('Pong.');
     }
 });
 
-client.login('NjU1ODU0OTQ4NTMzMjcyNTg2.XfaM4g.ndQ8Zr-2bt_Pcdr7sc3m0bVcnYk');
+client.login(config.token);
