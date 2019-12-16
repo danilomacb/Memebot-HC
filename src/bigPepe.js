@@ -9,7 +9,7 @@ async function pepe(message) {
       const pepeCanvas = Canvas.createCanvas(300, 300);
       pepeCanvas
         .getContext("2d")
-        .drawImage(await Canvas.loadImage("./images/pepe.png"), 0, 0, 300, 300);
+        .drawImage(await Canvas.loadImage("./images/pepe/pepe.png"), 0, 0, 300, 300);
       message.channel.send(new Discord.Attachment(pepeCanvas.toBuffer(), "big-pepe.png"));
       break;
 
@@ -17,7 +17,7 @@ async function pepe(message) {
       const pepehandsCanvas = Canvas.createCanvas(300, 300);
       pepehandsCanvas
         .getContext("2d")
-        .drawImage(await Canvas.loadImage("./images/pepehands.png"), 0, 0, 300, 300);
+        .drawImage(await Canvas.loadImage("./images/pepe/pepehands.png"), 0, 0, 300, 300);
       message.channel.send(new Discord.Attachment(pepehandsCanvas.toBuffer(), "big-pepehands.png"));
       break;
   }

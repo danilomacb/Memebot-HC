@@ -5,15 +5,15 @@ const { prefix } = require("../config.json");
 async function text(message) {
   switch (message.content) {
     case prefix + "stonks":
-      message.channel.send(new Discord.Attachment("images/stonks.jpg"));
+      message.channel.send(new Discord.Attachment("images/memes/stonks.jpg"));
       break;
 
     case prefix + "lanso":
-      message.channel.send(new Discord.Attachment("images/lanso.jpeg"));
+      message.channel.send(new Discord.Attachment("images/memes/lanso.jpeg"));
       break;
 
     case prefix + "npodese":
-      message.channel.send(new Discord.Attachment("images/npodese.jpeg"));
+      message.channel.send(new Discord.Attachment("images/memes/npodese.jpeg"));
       break;
   }
 }

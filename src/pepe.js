@@ -5,11 +5,11 @@ const { prefix } = require("../config.json");
 async function pepe(message) {
   switch (message.content) {
     case prefix + "pepe":
-      message.channel.send(new Discord.Attachment("images/pepe.png"));
+      message.channel.send(new Discord.Attachment("images/pepe/pepe.png"));
       break;
 
     case prefix + "pepehands":
-      message.channel.send(new Discord.Attachment("images/pepehands.png"));
+      message.channel.send(new Discord.Attachment("images/pepe/pepehands.png"));
       break;
   }
 }
