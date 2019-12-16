@@ -14,7 +14,7 @@ async function text(message) {
 
     case prefix + "help-pepe":
       message.channel.send(
-        "```Lista Emotes do Pepe:\n\nObs: Você também pode usar a tag big para fazer os emotes do pepe ficarem maiores.\nex: $big-pepe\n\n$pepe\n$pepehands\n$pepepopcorn\n$pepethin\n$poggers\n$pepehappy\n$suspepe\n$pepepanties\n$pepe190\n$monka\n$triplemonka\n$yikes\n$pepekms\n$pepelove```"
+        "```Lista Emotes do Pepe:\n\nObs: Você também pode usar a tag big para fazer os emotes do pepe ficarem maiores.\nex: $big-pepe\n\n$pepe\n$pepehands\n$pepepopcorn\n$pepethink\n$poggers\n$pepehappy\n$suspepe\n$pepepanties\n$pepe190\n$monka\n$triplemonka\n$yikes\n$pepekms\n$pepelove```"
       );
       break;
 
