@@ -36,8 +36,8 @@ async function pepe(message) {
       message.channel.send(new Discord.Attachment("images/pepe/pepepanties.png"));
       break;
 
-    case prefix + "190":
-      message.channel.send(new Discord.Attachment("images/pepe/190.png"));
+    case prefix + "pepe190":
+      message.channel.send(new Discord.Attachment("images/pepe/pepe190.png"));
       break;
 
     case prefix + "monka":
