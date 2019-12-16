@@ -1,7 +1,7 @@
 require("dotenv").config({ path: __dirname + "/.env" });
 
 const Discord = require("discord.js");
-const { prefix, token } = require("./config.json");
+const { prefix } = require("./config.json");
 
 const client = new Discord.Client();
 
@@ -13,6 +13,10 @@ client.on("message", message => {
   switch (message.content) {
     case prefix + "help":
       message.channel.send("```Comandos: \n\n$help\n$investigacao\n$stonks\n$pepe```");
+      break;
+
+    case prefix + "teste":
+      message.channel.send("testando");
       break;
 
     case prefix + "investigacao":
