@@ -7,6 +7,7 @@ const text = require("./text");
 const pepe = require("./pepe");
 const bigPepe = require("./bigPepe");
 const memes = require("./memes");
+const emojis = require("./emojis");
 
 const client = new Discord.Client();
 
@@ -20,6 +21,7 @@ client.on("message", async message => {
   pepe(message);
   bigPepe(message);
   memes(message);
+  emojis(message);
 });
 
 client.login(process.env.TOKEN);
