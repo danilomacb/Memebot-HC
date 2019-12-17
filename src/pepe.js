@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const { prefix } = require("../config.json");
 const list = require("../list.json");
 
-function pepeloop(message) {
+function pepe(message) {
   list.pepes.forEach(pepe => {
     if (message.content === prefix + pepe) {
       message.channel.send(new Discord.Attachment("images/pepe/" + pepe + ".png"));
@@ -11,4 +11,4 @@ function pepeloop(message) {
   });
 }
 
-module.exports = pepeloop;
+module.exports = pepe;
