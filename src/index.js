@@ -18,8 +18,8 @@ client.once("ready", () => {
 client.on("message", async message => {
   text(message);
   // pepe(message);
-  bigPepe(message);
   pepeloop(message);
+  bigPepe(message);
   memes(message);
 });
 
