@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const { prefix } = require("../config.json");
 
-async function text(message) {
+function text(message) {
   switch (message.content) {
     case prefix + "stonks":
       message.channel.send(new Discord.Attachment("images/memes/stonks.jpg"));
