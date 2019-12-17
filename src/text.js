@@ -3,9 +3,7 @@ const { prefix } = require("../config.json");
 async function text(message) {
   switch (message.content) {
     case prefix + "help":
-      message.channel.send(
-        "```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-memes\n\nDesenvolvido por Danilo Macedo Bakun```"
-      );
+      message.channel.send("```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-memes```");
       break;
 
     case prefix + "help-text":
