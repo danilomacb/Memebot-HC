@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 const help = require("./help");
 const text = require("./text");
 const pepe = require("./pepe");
-const bigPepe = require("./bigPepe");
+const bigList = require("./bigList");
 const memes = require("./memes");
 const emojis = require("./emojis");
 
@@ -19,7 +19,7 @@ client.on("message", async message => {
   help(message);
   text(message);
   pepe(message);
-  bigPepe(message);
+  bigList(message);
   memes(message);
   emojis(message);
 });
