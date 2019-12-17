@@ -7,7 +7,6 @@ const text = require("./text");
 const list = require("./list");
 const bigList = require("./bigList");
 const memes = require("./memes");
-const emojis = require("./emojis");
 
 const client = new Discord.Client();
 
@@ -21,7 +20,6 @@ client.on("message", async message => {
   list(message);
   bigList(message);
   memes(message);
-  // emojis(message);
 });
 
 client.login(process.env.TOKEN);
