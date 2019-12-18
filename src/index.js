@@ -3,8 +3,6 @@ require("dotenv").config({ path: __dirname + "/../.env" });
 const Discord = require("discord.js");
 const Canvas = require("canvas");
 
-const help = require("./help");
-const text = require("./text");
 const { prefix } = require("../config.json");
 const list = require("../list.json");
 const textList = require("../textList.json");
@@ -49,9 +47,6 @@ client.on("message", message => {
       }
     });
   });
-
-  // help(message);
-  // text(message);
 });
 
 client.login(process.env.TOKEN);
