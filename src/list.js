@@ -15,6 +15,12 @@ function list(message) {
       return message.channel.send(new Discord.Attachment("images/emojis/" + emoji + ".png"));
     }
   });
+
+  jsonList.achenar.forEach(achenarItem => {
+    if (message.content === prefix + achenarItem) {
+      return message.channel.send(new Discord.Attachment("images/achenar/" + achenarItem + ".png"));
+    }
+  });
 }
 
 module.exports = list;
