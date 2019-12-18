@@ -15,7 +15,10 @@
     "tag": "help-emojis",
     "message": "```Lista de Emojis:\n\n$thonkms\n$thonk\n$thinksmart\n$omegalul\n$nope\n$ikillu\n$ironiclaught\n$f```"
   },
-  { "tag": "help-memes", "message": "```Lista de Memes:\n\n$stonks\n$lanso\n$npodese```" },
+  {
+    "tag": "help-memes",
+    "message": "```Lista de Memes:\n\n$stonks\n$lanso\n$npodese\n$fetishaway```"
+  },
   {
     "tag": "help-achenar",
     "message": "```Lista de piadas internas:\n\n$gabriel\n$lord\n$paulo\n$pero```"
