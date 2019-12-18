@@ -1,7 +1,7 @@
 [
   {
     "tag": "help",
-    "message": "```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-emojis\n$help-memes```"
+    "message": "```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-emojis\n$help-memes\n$help-achenar```"
   },
   {
     "tag": "help-text",
@@ -15,7 +15,11 @@
     "tag": "help-emojis",
     "message": "```Lista de Emojis:\n\n$thonkms\n$thonk\n$thinksmart\n$omegalul\n$nope\n$ikillu\n$ironiclaught\n$f```"
   },
-  { "tag": "help-memes", "message": "```Lista de Memes: \n\n$stonks\n$lanso\n$npodese```" },
+  { "tag": "help-memes", "message": "```Lista de Memes:\n\n$stonks\n$lanso\n$npodese```" },
+  {
+    "tag": "help-achenar",
+    "message": "```Lista de piadas internas:\n\n$gabriel\n$lord\n$paulo\n$pero```"
+  },
   {
     "tag": "investigacao",
     "message": "Em caso de investigação policial, eu declaro que não tenho envolvimento com este grupo e não sei como estou no mesmo, provavelmente fui inserido por terceiros, declaro que estou disposto a colaborar com as investigações e estou disposto a me apresentar a depoimento se necessário."
