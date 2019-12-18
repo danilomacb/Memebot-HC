@@ -6,7 +6,8 @@ const Canvas = require("canvas");
 const help = require("./help");
 const text = require("./text");
 const { prefix } = require("../config.json");
-const json = require("../list.json");
+const list = require("../list.json");
+const textList = require("../textList.json");
 
 const client = new Discord.Client();
 
@@ -15,7 +16,13 @@ client.once("ready", () => {
 });
 
 client.on("message", message => {
-  json.forEach(group => {
+  textList.forEach(text => {
+    if (message.content === prefix + text.tag) {
+      message.channel.send(text.message);
+    }
+  });
+
+  list.forEach(group => {
     group.itens.forEach(async item => {
       if (message.content === prefix + item) {
         return message.channel.send(
@@ -43,8 +50,8 @@ client.on("message", message => {
     });
   });
 
-  help(message);
-  text(message);
+  // help(message);
+  // text(message);
 });
 
 client.login(process.env.TOKEN);

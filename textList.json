@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "help",
+    "message": "```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-emojis\n$help-memes```"
+  },
+  {
+    "tag": "help-text",
+    "message": "```Lista de Comandos de Texto: \n\n$investigacao\n$onaruto```"
+  },
+  {
+    "tag": "help-pepe",
+    "message": "```Lista Emotes do Pepe:\n\nObs: Você também pode usar a tag big para fazer os emotes do pepe ficarem maiores.\nex: $big-pepe\n\n$pepe\n$pepehands\n$pepepopcorn\n$pepethink\n$pepethink2\n$poggers\n$pepewow\n$pepehappy\n$suspepe\n$pepepanties\n$pepepanties2\n$pepe190\n$monkas\n$monkachrist\n$monkaj\n$triplemonka\n$yikes\n$pepekms\n$pepelove\n$reee\n$pepeangry\n$pepehead\n$pepeironic\n$pepeshrug\n$pepepain\n$pepeok\n$pepelaugh\n$pepelaugh2\n$pepehey\n$pepefat\n$pepega\n$pepeblurgh\n$pepepoop\n$pepeblanket\n$pepeevil\n$pepehype\n$pepeweird\n$pepesad\n$pepespecial\n$pepedab\n$pepeez\n$pepeblind```"
+  },
+  {
+    "tag": "help-emojis",
+    "message": "```Lista de Emojis:\n\n$thonkms\n$thonk\n$thinksmart\n$omegalul\n$nope\n$ikillu\n$ironiclaught\n$f```"
+  },
+  { "tag": "help-memes", "message": "```Lista de Memes: \n\n$stonks\n$lanso\n$npodese```" },
+  {
+    "tag": "investigacao",
+    "message": "Em caso de investigação policial, eu declaro que não tenho envolvimento com este grupo e não sei como estou no mesmo, provavelmente fui inserido por terceiros, declaro que estou disposto a colaborar com as investigações e estou disposto a me apresentar a depoimento se necessário."
+  },
+  {
+    "tag": "onaruto",
+    "message": "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai. Na verdade ele nunca conheceu nenhum de seus pais, e nunca teve nenhum amigo em nossa aldeia. Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar, ele quer ser respeitado, é o sonho dele e o Naruto daria a vida por isso sem hesitar. Meu palpite é que ele se cansou de chorar e decidiu fazer alguma coisa a respeito!"
+  }
+]
