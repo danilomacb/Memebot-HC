@@ -20,7 +20,6 @@ client.on("message", message => {
   jsonList.forEach(group => {
     group.itens.forEach(item => {
       if (message.content === prefix + item) {
-        // console.log(group, item);
         return message.channel.send(
           new Discord.Attachment("images/" + group.category + "/" + item + ".png")
         );
