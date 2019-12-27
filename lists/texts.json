@@ -4,10 +4,6 @@
     "message": "```Índice:\n\n$help\n$help-text\n$help-pepe\n$help-emojis\n$help-memes\n$help-achenar```"
   },
   {
-    "tag": "help-text",
-    "message": "```Lista de Comandos de Texto: \n\n$investigacao\n$onaruto\n$lennyface\n$sergamer```"
-  },
-  {
     "tag": "help-pepe",
     "message": "```Lista Emotes do Pepe:\n\nObs: Você também pode usar a tag big para fazer os emotes do pepe ficarem maiores.\nex: $big-pepe\n\n$pepe\n$pepehands\n$pepepopcorn\n$pepethink\n$pepethink2\n$poggers\n$pepewow\n$pepehappy\n$suspepe\n$pepepanties\n$pepepanties2\n$pepe190\n$monkas\n$monkachrist\n$monkaj\n$triplemonka\n$yikes\n$pepekms\n$pepelove\n$reee\n$pepeangry\n$pepehead\n$pepeironic\n$pepeshrug\n$pepepain\n$pepeok\n$pepelaugh\n$pepelaugh2\n$pepehey\n$pepefat\n$pepega\n$pepeblurgh\n$pepepoop\n$pepeblanket\n$pepeevil\n$pepehype\n$pepeweird\n$pepesad\n$pepespecial\n$pepedab\n$pepeez\n$pepeblind```"
   },
@@ -22,18 +18,5 @@
   {
     "tag": "help-achenar",
     "message": "```Lista de piadas internas:\n\n$achenar\n$gabriel\n$lord\n$paulo\n$pero```"
-  },
-  {
-    "tag": "investigacao",
-    "message": "Em caso de investigação policial, eu declaro que não tenho envolvimento com este grupo e não sei como estou no mesmo, provavelmente fui inserido por terceiros, declaro que estou disposto a colaborar com as investigações e estou disposto a me apresentar a depoimento se necessário."
-  },
-  {
-    "tag": "onaruto",
-    "message": "O Naruto pode ser um pouco duro às vezes, talvez você não saiba disso, mas o Naruto também cresceu sem pai. Na verdade ele nunca conheceu nenhum de seus pais, e nunca teve nenhum amigo em nossa aldeia. Mesmo assim eu nunca vi ele chorar, ficar zangado ou se dar por vencido, ele está sempre disposto a melhorar, ele quer ser respeitado, é o sonho dele e o Naruto daria a vida por isso sem hesitar. Meu palpite é que ele se cansou de chorar e decidiu fazer alguma coisa a respeito!"
-  },
-  { "tag": "lennyface", "message": "( ͡° ͜ʖ ͡°)" },
-  {
-    "tag": "sergamer",
-    "message": "Ser gamer, ser um jogador, vocês já se questionaram o que é ser um gamer? Já se questionaram o que os videogames te ensinaram pra você levar pra sua vida? ou você nunca parou pra pensar nisso? afinal são horas e horas que dedicamos a eles, muitas horas de nossos dias e nossas vidas. Se vocês forem bons observadores, vão notar que eles tem muitas coisas pra nos ensinar, nos inspirar. Zangado, o que os games ensinaram a voce? O que é ser um gamer? Eu digo a vocês. Os games me ensinaram que quando você encontra inimigos pelo caminho significa que você está indo na direção certa. Se você quer realmente um final feliz, vai ter que lutar muito pra conseguir. Por mais que você esteja estressado, preocupado, cheio de problemas, você precisa parar e ouvir, pois sábio é aquele que escuta mais e fala menos, pois aprende o que se escuta e transmite no olhar esses ensinamentos. Não existe sexo frágil. Os games me ensinaram que podemos errar várias vezes e que os problemas vão se acumular, mas se tivermos paciência e não desistirmos, os acertos os fazem desaparecer como mágica. Tenha orgulho das coisas que você fizer, das coisas que você construir, mesmo que as pessoas digam que não ficou tão bonito, aparência não é tudo. Os jogos me ensinaram que a guerra... a guerra nunca muda. Que todas as escolhas tem consequências, não só para você, mas para o mundo e todos a sua volta. Que vilões, geralmente são vilões por uma razão e que aos olhos de alguns, eles estão certos e são os verdadeiros heróis. Os jogos me ensinaram que a dor é terrível, mas é uma guia para que nos tornemos cada vez mais fortes. Que morrer é triste, mas se for pelos motivos certos e proteger as pessoas que se ama, tudo bem. Todo mundo precisa de amor. Mesmo que o amor seja uma dor. Traição só existe porque vem daqueles que menos esperamos. Os jogos me ensinaram até a definição da insanidade. Que você não precisa ser do mesmo sangue, raça ou especie, para ser da mesma família."
   }
 ]
