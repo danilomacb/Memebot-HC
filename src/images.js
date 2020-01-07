@@ -32,10 +32,7 @@ function images(message) {
         );
       }
 
-      if (
-        message.content === prefix + "wide-" + imageItem &&
-        (group.category === "pepe" || group.category === "emojis")
-      ) {
+      if (message.content === prefix + "wide-" + imageItem) {
         const canvas = Canvas.createCanvas(600, 300);
         canvas
           .getContext("2d")
