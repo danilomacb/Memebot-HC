@@ -12,6 +12,7 @@ function images(message) {
           new Discord.Attachment("images/" + group.category + "/" + imageItem + ".png")
         );
       }
+
       if (
         message.content === prefix + "big-" + imageItem &&
         (group.category === "pepe" || group.category === "emojis")
@@ -24,6 +25,25 @@ function images(message) {
             0,
             0,
             300,
+            300
+          );
+        return message.channel.send(
+          new Discord.Attachment(canvas.toBuffer(), "big-" + imageItem + ".png")
+        );
+      }
+
+      if (
+        message.content === prefix + "wide-" + imageItem &&
+        (group.category === "pepe" || group.category === "emojis")
+      ) {
+        const canvas = Canvas.createCanvas(600, 300);
+        canvas
+          .getContext("2d")
+          .drawImage(
+            await Canvas.loadImage("./images/" + group.category + "/" + imageItem + ".png"),
+            0,
+            0,
+            600,
             300
           );
         return message.channel.send(
