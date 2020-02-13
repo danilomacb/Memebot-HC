@@ -51,5 +51,8 @@
     "itens": ["thonkms", "thonk", "thinksmart", "omegalul", "nope", "ikillu", "ironiclaugh", "f"]
   },
   { "category": "memes", "itens": ["lanso", "npodese", "stonks", "fetishaway", "analise"] },
-  { "category": "achenar", "itens": ["achenar", "gabriel", "paulo", "pero", "lord", "danilo"] }
+  {
+    "category": "achenar",
+    "itens": ["achenar", "gabriel", "paulo", "pero", "lord", "danilo", "selopero"]
+  }
 ]
